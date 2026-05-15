@@ -149,7 +149,7 @@ a { color: inherit; text-decoration: none; }
   background:
     radial-gradient(circle at 50% 52%, rgba(95,150,255,0.10), transparent 26%),
     linear-gradient(180deg, rgba(5,6,10,0.54) 0%, rgba(5,6,10,0.46) 48%, rgba(5,6,10,0.60) 100%),
-    url("assets/images/series-infinity-loop.png") center / cover no-repeat;
+    url("series-infinity-loop.png") center / cover no-repeat;
   opacity: 0.88;
   transform: scale(1.04);
   pointer-events: none;
@@ -260,7 +260,7 @@ a { color: inherit; text-decoration: none; }
   inset: 0;
   background:
     linear-gradient(to bottom, rgba(2,3,6,0.08), rgba(2,3,6,0.72) 72%),
-    url("assets/images/particle-leaderboard-wave-v2.png") center 62% / cover no-repeat;
+    url("particle-leaderboard-wave-v2.png") center 62% / cover no-repeat;
   opacity: 0.24;
   filter: grayscale(1) saturate(0.10) brightness(0.52);
   transition: opacity 0.35s ease, filter 0.35s ease, transform 0.35s var(--ease);
@@ -348,7 +348,7 @@ main { display: flex; flex-direction: column; }
   opacity: 0.20;
   background:
     radial-gradient(circle at var(--mx) var(--my), rgba(95,150,255,0.16), transparent 24%),
-    url("assets/images/crypto-trails-card.png") center / cover no-repeat;
+    url("crypto-trails-card.png") center / cover no-repeat;
   filter: blur(18px);
   transform: translate3d(calc((var(--mx) - 50vw) * -0.006), calc((var(--my) - 50vh) * -0.006), 0) scale(1.04);
   mask-image: linear-gradient(to bottom, transparent, black 12%, black 82%, transparent);
@@ -358,17 +358,17 @@ main { display: flex; flex-direction: column; }
 #leaderboard::before {
   background:
     radial-gradient(circle at var(--mx) var(--my), rgba(95,150,255,0.14), transparent 24%),
-    url("assets/images/series-particle-swirl.png") center / cover no-repeat;
+    url("series-particle-swirl.png") center / cover no-repeat;
 }
 #analysis::before {
   background:
     radial-gradient(circle at var(--mx) var(--my), rgba(245,157,157,0.13), transparent 22%),
-    url("assets/images/series-cosmic-wormhole.png") center / cover no-repeat;
+    url("series-cosmic-wormhole.png") center / cover no-repeat;
 }
 #tasks::before {
   background:
     radial-gradient(circle at var(--mx) var(--my), rgba(155,231,193,0.13), transparent 22%),
-    url("assets/images/series-shattered-ring.png") center / cover no-repeat;
+    url("series-shattered-ring.png") center / cover no-repeat;
 }
 .section-head { display: grid; grid-template-columns: 0.86fr 1fr; gap: 56px; margin-bottom: 42px; align-items: end; }
 .section-kicker { color: var(--blue); font-size: 0.78rem; font-weight: 800; text-transform: uppercase; margin-bottom: 12px; }
@@ -396,7 +396,7 @@ main { display: flex; flex-direction: column; }
   position: relative;
   --accent: var(--blue);
   --accent-rgb: 95, 150, 255;
-  --card-art: url("assets/images/crypto-prism-card.png");
+  --card-art: url("crypto-prism-card.png");
   --card-pos: center 28%;
   --card-size: cover;
   transition: transform 0.34s var(--ease), border-color 0.34s ease, box-shadow 0.34s ease, background 0.34s ease;
@@ -459,23 +459,23 @@ main { display: flex; flex-direction: column; }
 .scope-card:nth-child(3n), .task-card:nth-child(3n), .insight-card:nth-child(3n) { --accent: var(--amber); --accent-rgb: 245, 193, 108; }
 .scope-card:nth-child(4n), .task-card:nth-child(4n), .insight-card:nth-child(4n) { --accent: var(--cyan); --accent-rgb: 125, 211, 252; }
 .scope-card:nth-child(5n), .task-card:nth-child(5n), .insight-card:nth-child(5n) { --accent: var(--danger); --accent-rgb: 245, 157, 157; }
-.scope-card:nth-child(1) { --card-art: url("assets/images/crypto-trails-card.png"); --card-pos: 46% 24%; --card-size: 118%; }
-.scope-card:nth-child(2) { --card-art: url("assets/images/crypto-linear-card.png"); --card-pos: 50% 28%; --card-size: 124%; }
-.scope-card:nth-child(3) { --card-art: url("assets/images/crypto-debug-card.png"); --card-pos: 48% 26%; --card-size: 120%; }
-.scope-card:nth-child(4) { --card-art: url("assets/images/crypto-integral-card.png"); --card-pos: 50% 26%; --card-size: 122%; }
-.scope-card:nth-child(5) { --card-art: url("assets/images/crypto-boomerang-card.png"); --card-pos: 50% 28%; --card-size: 120%; }
-.scope-card:nth-child(6) { --card-art: url("assets/images/crypto-proof-card.png"); --card-pos: 50% 24%; --card-size: 118%; }
-.task-card:nth-child(1) { --card-art: url("assets/images/crypto-sbox-card.png"); --card-pos: 50% 24%; --card-size: 126%; }
-.task-card:nth-child(2) { --card-art: url("assets/images/crypto-orb-card.png"); --card-pos: 50% 22%; --card-size: 118%; }
-.task-card:nth-child(3) { --card-art: url("assets/images/crypto-prism-card.png"); --card-pos: 56% 28%; --card-size: 126%; }
-.task-card:nth-child(4) { --card-art: url("assets/images/crypto-trails-card.png"); --card-pos: 48% 24%; --card-size: 124%; }
-.task-card:nth-child(5) { --card-art: url("assets/images/crypto-debug-card.png"); --card-pos: 50% 26%; --card-size: 126%; }
-.insight-card:nth-child(1) { --card-art: url("assets/images/crypto-linear-card.png"); --card-pos: 48% 24%; --card-size: 124%; }
-.insight-card:nth-child(2) { --card-art: url("assets/images/crypto-proof-card.png"); --card-pos: 50% 26%; --card-size: 118%; }
-.insight-card:nth-child(3) { --card-art: url("assets/images/crypto-prism-card.png"); --card-pos: 58% 30%; --card-size: 130%; }
-.insight-card:nth-child(4) { --card-art: url("assets/images/crypto-debug-card.png"); --card-pos: 52% 24%; --card-size: 122%; }
-.insight-card:nth-child(5) { --card-art: url("assets/images/crypto-boomerang-card.png"); --card-pos: 45% 28%; --card-size: 126%; }
-.insight-card:nth-child(6) { --card-art: url("assets/images/crypto-orb-card.png"); --card-pos: 48% 20%; --card-size: 116%; }
+.scope-card:nth-child(1) { --card-art: url("crypto-trails-card.png"); --card-pos: 46% 24%; --card-size: 118%; }
+.scope-card:nth-child(2) { --card-art: url("crypto-linear-card.png"); --card-pos: 50% 28%; --card-size: 124%; }
+.scope-card:nth-child(3) { --card-art: url("crypto-debug-card.png"); --card-pos: 48% 26%; --card-size: 120%; }
+.scope-card:nth-child(4) { --card-art: url("crypto-integral-card.png"); --card-pos: 50% 26%; --card-size: 122%; }
+.scope-card:nth-child(5) { --card-art: url("crypto-boomerang-card.png"); --card-pos: 50% 28%; --card-size: 120%; }
+.scope-card:nth-child(6) { --card-art: url("crypto-proof-card.png"); --card-pos: 50% 24%; --card-size: 118%; }
+.task-card:nth-child(1) { --card-art: url("crypto-sbox-card.png"); --card-pos: 50% 24%; --card-size: 126%; }
+.task-card:nth-child(2) { --card-art: url("crypto-orb-card.png"); --card-pos: 50% 22%; --card-size: 118%; }
+.task-card:nth-child(3) { --card-art: url("crypto-prism-card.png"); --card-pos: 56% 28%; --card-size: 126%; }
+.task-card:nth-child(4) { --card-art: url("crypto-trails-card.png"); --card-pos: 48% 24%; --card-size: 124%; }
+.task-card:nth-child(5) { --card-art: url("crypto-debug-card.png"); --card-pos: 50% 26%; --card-size: 126%; }
+.insight-card:nth-child(1) { --card-art: url("crypto-linear-card.png"); --card-pos: 48% 24%; --card-size: 124%; }
+.insight-card:nth-child(2) { --card-art: url("crypto-proof-card.png"); --card-pos: 50% 26%; --card-size: 118%; }
+.insight-card:nth-child(3) { --card-art: url("crypto-prism-card.png"); --card-pos: 58% 30%; --card-size: 130%; }
+.insight-card:nth-child(4) { --card-art: url("crypto-debug-card.png"); --card-pos: 52% 24%; --card-size: 122%; }
+.insight-card:nth-child(5) { --card-art: url("crypto-boomerang-card.png"); --card-pos: 45% 28%; --card-size: 126%; }
+.insight-card:nth-child(6) { --card-art: url("crypto-orb-card.png"); --card-pos: 48% 20%; --card-size: 116%; }
 .scope-card:nth-child(odd)::after { mask-image: linear-gradient(to bottom, black 0%, black 52%, transparent 86%); }
 .scope-card:nth-child(even)::after { mask-image: radial-gradient(ellipse at 50% 22%, black 0%, black 42%, transparent 80%); }
 .task-card:nth-child(even)::after { mask-image: linear-gradient(to bottom, black 0%, black 48%, transparent 84%); }
@@ -548,7 +548,7 @@ main { display: flex; flex-direction: column; }
   inset: 0;
   background:
     linear-gradient(to bottom, rgba(2,3,6,0.10), rgba(2,3,6,0.84) 76%),
-    var(--space-art, url("assets/images/crypto-trails-card.png")) center 20% / cover no-repeat;
+    var(--space-art, url("crypto-trails-card.png")) center 20% / cover no-repeat;
   opacity: 0.22;
   filter: grayscale(1) saturate(0.08) brightness(0.56);
   transition: opacity 0.3s ease, filter 0.3s ease, transform 0.3s var(--ease);
@@ -559,12 +559,12 @@ main { display: flex; flex-direction: column; }
   transform: scale(1.04);
 }
 .space-card > * { position: relative; z-index: 1; }
-.space-card:nth-child(1) { --space-art: url("assets/images/series-elegant-ribbons.png"); }
-.space-card:nth-child(2) { --space-art: url("assets/images/crypto-sbox-card.png"); }
-.space-card:nth-child(3) { --space-art: url("assets/images/crypto-linear-card.png"); }
-.space-card:nth-child(4) { --space-art: url("assets/images/crypto-prism-card.png"); }
-.space-card:nth-child(5) { --space-art: url("assets/images/crypto-trails-card.png"); }
-.space-card:nth-child(6) { --space-art: url("assets/images/crypto-debug-card.png"); }
+.space-card:nth-child(1) { --space-art: url("series-elegant-ribbons.png"); }
+.space-card:nth-child(2) { --space-art: url("crypto-sbox-card.png"); }
+.space-card:nth-child(3) { --space-art: url("crypto-linear-card.png"); }
+.space-card:nth-child(4) { --space-art: url("crypto-prism-card.png"); }
+.space-card:nth-child(5) { --space-art: url("crypto-trails-card.png"); }
+.space-card:nth-child(6) { --space-art: url("crypto-debug-card.png"); }
 .space-card-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }
 .space-type { color: var(--blue); font-size: 0.72rem; font-weight: 900; text-transform: uppercase; }
 .space-title { margin-top: 10px; font-size: 1.08rem; font-weight: 820; }
@@ -615,15 +615,15 @@ main { display: flex; flex-direction: column; }
   box-shadow: inset 0 1px 0 rgba(255,255,255,0.07), 0 16px 50px rgba(0,0,0,0.18);
   --accent: var(--green);
   --accent-rgb: 155, 231, 193;
-  --card-art: url("assets/images/crypto-orb-card.png");
+  --card-art: url("crypto-orb-card.png");
   --card-pos: center 24%;
   --card-size: cover;
   transition: transform 0.34s var(--ease), background 0.34s ease, border-color 0.34s ease, box-shadow 0.34s ease;
 }
-.package-point:nth-child(1) { --accent: var(--green); --accent-rgb: 155, 231, 193; --card-art: url("assets/images/crypto-orb-card.png"); --card-pos: 50% 20%; --card-size: 120%; }
-.package-point:nth-child(2) { --accent: var(--blue); --accent-rgb: 95, 150, 255; --card-art: url("assets/images/crypto-prism-card.png"); --card-pos: 60% 26%; --card-size: 132%; }
-.package-point:nth-child(3) { --accent: var(--amber); --accent-rgb: 245, 193, 108; --card-art: url("assets/images/crypto-trails-card.png"); --card-pos: 45% 24%; --card-size: 128%; }
-.package-point:nth-child(4) { --accent: var(--cyan); --accent-rgb: 125, 211, 252; --card-art: url("assets/images/crypto-proof-card.png"); --card-pos: 50% 24%; --card-size: 120%; }
+.package-point:nth-child(1) { --accent: var(--green); --accent-rgb: 155, 231, 193; --card-art: url("crypto-orb-card.png"); --card-pos: 50% 20%; --card-size: 120%; }
+.package-point:nth-child(2) { --accent: var(--blue); --accent-rgb: 95, 150, 255; --card-art: url("crypto-prism-card.png"); --card-pos: 60% 26%; --card-size: 132%; }
+.package-point:nth-child(3) { --accent: var(--amber); --accent-rgb: 245, 193, 108; --card-art: url("crypto-trails-card.png"); --card-pos: 45% 24%; --card-size: 128%; }
+.package-point:nth-child(4) { --accent: var(--cyan); --accent-rgb: 125, 211, 252; --card-art: url("crypto-proof-card.png"); --card-pos: 50% 24%; --card-size: 120%; }
 .package-point::after {
   background:
     linear-gradient(to bottom, rgba(2,3,6,0.08), rgba(2,3,6,0.84) 90%),
@@ -767,17 +767,17 @@ tbody tr:hover {
   box-shadow: inset 0 1px 0 rgba(255,255,255,0.07);
   --accent: var(--blue);
   --accent-rgb: 95, 150, 255;
-  --card-art: url("assets/images/crypto-prism-card.png");
+  --card-art: url("crypto-prism-card.png");
   --card-pos: center 24%;
   --card-size: cover;
   transition: transform 0.34s var(--ease), background 0.34s ease, border-color 0.34s ease;
 }
-.method-step:nth-child(1) { --accent: var(--blue); --accent-rgb: 95, 150, 255; --card-art: url("assets/images/crypto-sbox-card.png"); --card-pos: 50% 22%; --card-size: 130%; }
-.method-step:nth-child(2) { --accent: var(--green); --accent-rgb: 155, 231, 193; --card-art: url("assets/images/crypto-orb-card.png"); --card-pos: 48% 22%; --card-size: 120%; }
-.method-step:nth-child(3) { --accent: var(--amber); --accent-rgb: 245, 193, 108; --card-art: url("assets/images/crypto-linear-card.png"); --card-pos: 52% 26%; --card-size: 132%; }
-.method-step:nth-child(4) { --accent: var(--cyan); --accent-rgb: 125, 211, 252; --card-art: url("assets/images/crypto-proof-card.png"); --card-pos: 50% 22%; --card-size: 124%; }
-.method-step:nth-child(5) { --accent: var(--danger); --accent-rgb: 245, 157, 157; --card-art: url("assets/images/crypto-debug-card.png"); --card-pos: 48% 24%; --card-size: 130%; }
-.method-step:nth-child(6) { --accent: var(--cyan); --accent-rgb: 125, 211, 252; --card-art: url("assets/images/crypto-boomerang-card.png"); --card-pos: 54% 26%; --card-size: 126%; }
+.method-step:nth-child(1) { --accent: var(--blue); --accent-rgb: 95, 150, 255; --card-art: url("crypto-sbox-card.png"); --card-pos: 50% 22%; --card-size: 130%; }
+.method-step:nth-child(2) { --accent: var(--green); --accent-rgb: 155, 231, 193; --card-art: url("crypto-orb-card.png"); --card-pos: 48% 22%; --card-size: 120%; }
+.method-step:nth-child(3) { --accent: var(--amber); --accent-rgb: 245, 193, 108; --card-art: url("crypto-linear-card.png"); --card-pos: 52% 26%; --card-size: 132%; }
+.method-step:nth-child(4) { --accent: var(--cyan); --accent-rgb: 125, 211, 252; --card-art: url("crypto-proof-card.png"); --card-pos: 50% 22%; --card-size: 124%; }
+.method-step:nth-child(5) { --accent: var(--danger); --accent-rgb: 245, 157, 157; --card-art: url("crypto-debug-card.png"); --card-pos: 48% 24%; --card-size: 130%; }
+.method-step:nth-child(6) { --accent: var(--cyan); --accent-rgb: 125, 211, 252; --card-art: url("crypto-boomerang-card.png"); --card-pos: 54% 26%; --card-size: 126%; }
 .method-step::after {
   background:
     linear-gradient(to bottom, rgba(2,3,6,0.06), rgba(2,3,6,0.86) 90%),
@@ -875,7 +875,7 @@ tbody tr:hover {
   position: relative;
   overflow: hidden;
   --accent-rgb: 95,150,255;
-  --problem-art: url("assets/images/bg-failure-modes.png");
+  --problem-art: url("bg-failure-modes.png");
 }
 .problem-card::before {
   content: "";
@@ -894,9 +894,9 @@ tbody tr:hover {
   transform: scale(1.06);
 }
 .problem-card > * { position: relative; z-index: 1; }
-.problem-card:nth-child(2) { --problem-art: url("assets/images/bg-reliability-pass4.png"); }
-.problem-card:nth-child(3) { --problem-art: url("assets/images/crypto-proof-card.png"); }
-.problem-card:nth-child(4) { --problem-art: url("assets/images/crypto-debug-card.png"); }
+.problem-card:nth-child(2) { --problem-art: url("bg-reliability-pass4.png"); }
+.problem-card:nth-child(3) { --problem-art: url("crypto-proof-card.png"); }
+.problem-card:nth-child(4) { --problem-art: url("crypto-debug-card.png"); }
 .problem-title { font-weight: 780; }
 .problem-desc { color: var(--muted); font-size: 0.84rem; margin-top: 8px; }
 
@@ -1531,7 +1531,7 @@ body {
   padding: 96px 0 76px;
   background:
     linear-gradient(180deg, rgba(5,6,10,0.42), rgba(5,6,10,0.82)),
-    url("assets/images/series-infinity-loop.png") center / cover no-repeat;
+    url("series-infinity-loop.png") center / cover no-repeat;
   overflow: hidden;
 }
 
@@ -2834,7 +2834,7 @@ tbody tr:hover {
   <nav class="nav">
     <div class="nav-inner">
       <div class="brand">
-        <span class="brand-mark"><img src="assets/images/logo.png" alt="CryptoBench"></span>
+        <span class="brand-mark"><img src="logo.png" alt="CryptoBench"></span>
         <span>CryptoBench</span>
       </div>
       <ul class="nav-links">
@@ -3105,6 +3105,6 @@ if (navToggle && mobileNav) {
   draw(1);
 })();
 </script>
-<script src="assets/js/api-client.js"></script>
+<script src="api-client.js"></script>
 </body>
 </html>
